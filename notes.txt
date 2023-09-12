@@ -1,0 +1,23 @@
+Preparation:
+#allow user to see structure of program
+brew install tree
+#creating python virtual env
+$ cd /scrapy_tutorials
+$ python3 -m venv venv
+$ source venv/bin/activate
+#brew install scrapy
+
+
+How to start a scrapy project:
+scrapy startproject <project_name>
+
+How to create a spider:
+scrapy genspider <spiderName> <nameOfWebsite>
+
+Ways to request data:
+response.css('.absolute-link-wrapper > div:nth-of-type(2)::attr(content)').extract_first()
+response.css('.product-inner > .absolute-link-wrapper > div:nth-of-type(2)::attr(content)').extract()
+
+To output file from response:
+
+scrapy crawl mooncakespider -O vitaminc-data.csv
