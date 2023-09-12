@@ -1,3 +1,8 @@
 Ways to request data:
 
 response.css('.absolute-link-wrapper > div:nth-of-type(2)::attr(content)').extract_first()
+response.css('.product-inner > .absolute-link-wrapper > div:nth-of-type(2)::attr(content)').extract()
+
+To output file from response:
+
+scrapy crawl mooncakespider -O vitaminc-data.csv
