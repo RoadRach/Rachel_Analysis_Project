@@ -978,3 +978,10 @@
 [2023-09-28T18:45:31.227+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:45:31.227+0800] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-09-28T18:45:31.236+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:45:31.236+0800] {dag.py:3696} INFO - Setting next_dagrun for example_task_group to 2023-09-27T10:45:31.236093+00:00, run_after=2023-09-28T10:45:31.236093+00:00
 [2023-09-28T18:45:31.247+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.134 seconds
+[2023-09-28T18:47:17.937+0800] {processor.py:157} INFO - Started process (PID=33493) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-28T18:47:17.937+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-09-28T18:47:17.938+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:17.937+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-28T18:47:17.955+0800] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-28T18:47:18.053+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:18.053+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T18:47:18.062+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:18.062+0800] {dag.py:3696} INFO - Setting next_dagrun for example_task_group to 2023-09-27T10:47:18.062084+00:00, run_after=2023-09-28T10:47:18.062084+00:00
+[2023-09-28T18:47:18.073+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.137 seconds

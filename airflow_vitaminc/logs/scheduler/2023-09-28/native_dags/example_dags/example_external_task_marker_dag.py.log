@@ -1110,3 +1110,11 @@
 [2023-09-28T18:45:38.279+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:45:38.279+0800] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2023-09-28T18:45:38.281+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:45:38.281+0800] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2023-09-28T18:45:38.290+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.138 seconds
+[2023-09-28T18:47:24.500+0800] {processor.py:157} INFO - Started process (PID=33508) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-09-28T18:47:24.501+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-09-28T18:47:24.501+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:24.501+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-09-28T18:47:24.519+0800] {processor.py:839} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-09-28T18:47:24.624+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:24.624+0800] {dag.py:2915} INFO - Sync 2 DAGs
+[2023-09-28T18:47:24.629+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:24.629+0800] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-09-28T18:47:24.630+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:24.630+0800] {dag.py:3696} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-09-28T18:47:24.641+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.141 seconds
