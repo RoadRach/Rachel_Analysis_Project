@@ -1,0 +1,120 @@
+[2023-09-24T08:15:29.306+0800] {processor.py:157} INFO - Started process (PID=80035) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T08:15:29.306+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T08:15:29.307+0800] {logging_mixin.py:151} INFO - [2023-09-24T08:15:29.307+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T08:15:29.310+0800] {logging_mixin.py:151} INFO - [2023-09-24T08:15:29.308+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T08:15:29.310+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T08:15:29.381+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.075 seconds
+[2023-09-24T11:08:53.935+0800] {processor.py:157} INFO - Started process (PID=80357) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T11:08:53.936+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T11:08:53.936+0800] {logging_mixin.py:151} INFO - [2023-09-24T11:08:53.936+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T11:08:53.939+0800] {logging_mixin.py:151} INFO - [2023-09-24T11:08:53.938+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T11:08:53.939+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T11:08:54.024+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.089 seconds
+[2023-09-24T14:10:27.710+0800] {processor.py:157} INFO - Started process (PID=80947) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T14:10:27.710+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T14:10:27.710+0800] {logging_mixin.py:151} INFO - [2023-09-24T14:10:27.710+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T14:10:27.712+0800] {logging_mixin.py:151} INFO - [2023-09-24T14:10:27.712+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T14:10:27.713+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T14:10:27.783+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.074 seconds
+[2023-09-24T17:27:42.485+0800] {processor.py:157} INFO - Started process (PID=81280) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T17:27:42.486+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T17:27:42.486+0800] {logging_mixin.py:151} INFO - [2023-09-24T17:27:42.486+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T17:27:42.488+0800] {logging_mixin.py:151} INFO - [2023-09-24T17:27:42.488+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T17:27:42.488+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T17:27:42.571+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.087 seconds
+[2023-09-24T20:13:49.812+0800] {processor.py:157} INFO - Started process (PID=81601) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T20:13:49.812+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T20:13:49.813+0800] {logging_mixin.py:151} INFO - [2023-09-24T20:13:49.813+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T20:13:49.815+0800] {logging_mixin.py:151} INFO - [2023-09-24T20:13:49.814+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T20:13:49.815+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T20:13:49.886+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.075 seconds
+[2023-09-24T23:31:32.213+0800] {processor.py:157} INFO - Started process (PID=81890) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T23:31:32.214+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-24T23:31:32.215+0800] {logging_mixin.py:151} INFO - [2023-09-24T23:31:32.215+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T23:31:32.217+0800] {logging_mixin.py:151} INFO - [2023-09-24T23:31:32.216+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-24T23:31:32.217+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-24T23:31:32.288+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.075 seconds
+[2023-09-25T02:49:19.112+0800] {processor.py:157} INFO - Started process (PID=82224) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T02:49:19.113+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-25T02:49:19.113+0800] {logging_mixin.py:151} INFO - [2023-09-25T02:49:19.113+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T02:49:19.116+0800] {logging_mixin.py:151} INFO - [2023-09-25T02:49:19.115+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-25T02:49:19.116+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T02:49:19.186+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.075 seconds
+[2023-09-25T05:50:41.926+0800] {processor.py:157} INFO - Started process (PID=82544) to work on /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T05:50:41.927+0800] {processor.py:829} INFO - Processing file /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py for tasks to queue
+[2023-09-25T05:50:41.927+0800] {logging_mixin.py:151} INFO - [2023-09-25T05:50:41.927+0800] {dagbag.py:539} INFO - Filling up the DagBag from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T05:50:41.930+0800] {logging_mixin.py:151} INFO - [2023-09-25T05:50:41.929+0800] {dagbag.py:347} ERROR - Failed to import: /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py", line 8, in <module>
+    'retry_delay' : timedelta(minute=2)
+                    ^^^^^^^^^^^^^^^^^^^
+TypeError: 'minute' is an invalid keyword argument for __new__()
+[2023-09-25T05:50:41.930+0800] {processor.py:841} WARNING - No viable dags retrieved from /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py
+[2023-09-25T05:50:42.001+0800] {processor.py:179} INFO - Processing /Users/homersimpson/Documents/GitHub/Rachel_Analysis_Project/Rachel_Analysis_Project/airflow_vitaminc/dags/vitaminc_dag.py took 0.075 seconds
