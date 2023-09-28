@@ -985,3 +985,17 @@
 [2023-09-28T18:47:21.403+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:21.403+0800] {dag.py:2915} INFO - Sync 1 DAGs
 [2023-09-28T18:47:21.413+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:47:21.413+0800] {dag.py:3696} INFO - Setting next_dagrun for example_sla_dag to 2023-09-28T10:44:00+00:00, run_after=2023-09-28T10:46:00+00:00
 [2023-09-28T18:47:21.423+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.145 seconds
+[2023-09-28T18:49:10.778+0800] {processor.py:157} INFO - Started process (PID=33840) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:49:10.779+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-09-28T18:49:10.780+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:49:10.780+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:49:10.811+0800] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:49:10.905+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:49:10.905+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T18:49:10.915+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:49:10.915+0800] {dag.py:3696} INFO - Setting next_dagrun for example_sla_dag to 2023-09-28T10:46:00+00:00, run_after=2023-09-28T10:48:00+00:00
+[2023-09-28T18:49:10.925+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.147 seconds
+[2023-09-28T18:50:53.624+0800] {processor.py:157} INFO - Started process (PID=34088) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:50:53.624+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-09-28T18:50:53.625+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:53.625+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:50:53.657+0800] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-09-28T18:50:53.749+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:53.749+0800] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-28T18:50:53.759+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:53.759+0800] {dag.py:3696} INFO - Setting next_dagrun for example_sla_dag to 2023-09-28T10:48:00+00:00, run_after=2023-09-28T10:50:00+00:00
+[2023-09-28T18:50:53.769+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.146 seconds

@@ -1538,3 +1538,25 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2023-09-28T18:46:48.398+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:46:48.398+0800] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2023-09-28T18:46:48.399+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2023-09-28T18:46:48.454+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.086 seconds
+[2023-09-28T18:48:34.403+0800] {processor.py:157} INFO - Started process (PID=33728) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:48:34.404+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-09-28T18:48:34.404+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:48:34.404+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:48:34.432+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:48:34.432+0800] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-09-28T18:48:34.433+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:48:34.432+0800] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-09-28T18:48:34.433+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:48:34.488+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.086 seconds
+[2023-09-28T18:50:20.778+0800] {processor.py:157} INFO - Started process (PID=34002) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:50:20.779+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2023-09-28T18:50:20.779+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:20.779+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:50:20.808+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:20.808+0800] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2023-09-28T18:50:20.808+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:20.808+0800] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2023-09-28T18:50:20.808+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2023-09-28T18:50:20.867+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.090 seconds
