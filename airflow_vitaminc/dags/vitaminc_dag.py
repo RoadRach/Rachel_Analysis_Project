@@ -2,6 +2,8 @@ from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+from vitamincscraper.vitamincscraper.spiders import vitamincspider
+
 default_args = {
     'owner': 'rach',
     'retries' : 5,
@@ -21,7 +23,7 @@ with DAG(
     )
     task2 = PythonOperator(
         task_id='second_task',
-        
+        python_callable=vitamincspider
     )
 
-    task1
+    task1 >> task2

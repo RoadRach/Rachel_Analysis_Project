@@ -1398,3 +1398,13 @@
 [2023-09-28T18:50:30.281+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:30.281+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2023-09-28T18:50:30.526+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2023-09-28T18:50:30.625+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.345 seconds
+[2023-09-28T19:06:58.964+0800] {processor.py:157} INFO - Started process (PID=35443) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:06:58.965+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-09-28T19:06:58.965+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:06:58.965+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:06:59.208+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:06:59.314+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.350 seconds
+[2023-09-28T19:08:23.086+0800] {processor.py:157} INFO - Started process (PID=35657) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:08:23.087+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2023-09-28T19:08:23.087+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:08:23.087+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:08:23.338+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2023-09-28T19:08:23.447+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.362 seconds

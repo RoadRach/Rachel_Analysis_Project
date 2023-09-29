@@ -1398,3 +1398,13 @@
 [2023-09-28T18:50:28.476+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:28.476+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-09-28T18:50:28.478+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2023-09-28T18:50:28.547+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.072 seconds
+[2023-09-28T19:06:57.171+0800] {processor.py:157} INFO - Started process (PID=35438) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:06:57.172+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-09-28T19:06:57.173+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:06:57.173+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:06:57.174+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:06:57.244+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.073 seconds
+[2023-09-28T19:08:21.281+0800] {processor.py:157} INFO - Started process (PID=35652) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:08:21.284+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-09-28T19:08:21.284+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:08:21.284+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:08:21.285+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-09-28T19:08:21.354+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.073 seconds

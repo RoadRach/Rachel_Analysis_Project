@@ -1403,3 +1403,13 @@
 [2023-09-28T18:50:32.860+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:32.860+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
 [2023-09-28T18:50:32.860+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
 [2023-09-28T18:50:32.929+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.070 seconds
+[2023-09-28T19:07:02.865+0800] {processor.py:157} INFO - Started process (PID=35454) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:07:02.866+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2023-09-28T19:07:02.866+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:07:02.866+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:07:02.867+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:07:02.935+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.070 seconds
+[2023-09-28T19:08:27.043+0800] {processor.py:157} INFO - Started process (PID=35668) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:08:27.044+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2023-09-28T19:08:27.044+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:08:27.044+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:08:27.045+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-28T19:08:27.114+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.071 seconds

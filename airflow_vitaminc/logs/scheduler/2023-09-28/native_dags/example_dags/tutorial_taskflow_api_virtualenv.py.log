@@ -1684,3 +1684,15 @@
 [2023-09-28T18:50:34.765+0800] {logging_mixin.py:151} INFO - [2023-09-28T18:50:34.764+0800] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
 [2023-09-28T18:50:34.765+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
 [2023-09-28T18:50:34.847+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.122 seconds
+[2023-09-28T19:07:04.626+0800] {processor.py:157} INFO - Started process (PID=35457) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:07:04.628+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2023-09-28T19:07:04.628+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:07:04.628+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:07:04.655+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:07:04.655+0800] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2023-09-28T19:07:04.655+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:07:04.711+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.085 seconds
+[2023-09-28T19:08:28.731+0800] {processor.py:157} INFO - Started process (PID=35671) to work on /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:08:28.732+0800] {processor.py:829} INFO - Processing file /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2023-09-28T19:08:28.733+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:08:28.733+0800] {dagbag.py:539} INFO - Filling up the DagBag from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:08:28.760+0800] {logging_mixin.py:151} INFO - [2023-09-28T19:08:28.760+0800] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
+[2023-09-28T19:08:28.760+0800] {processor.py:841} WARNING - No viable dags retrieved from /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2023-09-28T19:08:28.817+0800] {processor.py:179} INFO - Processing /opt/homebrew/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.086 seconds
