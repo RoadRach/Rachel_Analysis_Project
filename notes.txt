@@ -21,3 +21,20 @@ response.css('.product-inner > .absolute-link-wrapper > div:nth-of-type(2)::attr
 To output file from response:
 
 scrapy crawl mooncakespider -O vitaminc-data.csv
+
+--------------------------------------------------------
+AIRFLOW
+
+Setting up local airflow:
+
+export AIRFLOW_HOME=export AIRFLOW_HOME="$(pwd)"
+
+Google apache airflow and go to installing for PyPi, get the text file installation
+
+airflow standalone
+
+To find where is the port is being used:
+lsof -i tcp:3000
+
+To kill ports:
+kill -9 $(lsof -ti:3000,3001)
