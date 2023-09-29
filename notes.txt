@@ -38,3 +38,6 @@ lsof -i tcp:3000
 
 To kill ports:
 kill -9 $(lsof -ti:3000,3001)
+
+To link local content to docker container:
+Go to docker yaml file > under volumnes add a new volumne.  Exxample : - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
