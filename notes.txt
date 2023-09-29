@@ -41,3 +41,17 @@ kill -9 $(lsof -ti:3000,3001)
 
 To link local content to docker container:
 Go to docker yaml file > under volumnes add a new volumne.  Exxample : - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
+
+--------------------------------------------------------
+POSTGRES
+
+Go to Airflow UI and go to admin > connections > add a new connection, and fill in the following fields:
+    connection_id: postgress_localhost
+    Connect type: postgres
+    Host: host.docker.internal
+    Schema: test
+    Login: airflow 
+    pw: airflow 
+    Port: 5432 (need to check it may change)
+
+DBeaver: <Insert ss here>
