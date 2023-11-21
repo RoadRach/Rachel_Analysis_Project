@@ -1,0 +1,129 @@
+[2023-11-01T02:46:43.721+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ourfirst_dag.first_task scheduled__2023-10-31T00:00:00+00:00 [queued]>
+[2023-11-01T02:46:43.727+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ourfirst_dag.first_task scheduled__2023-10-31T00:00:00+00:00 [queued]>
+[2023-11-01T02:46:43.728+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 6
+[2023-11-01T02:46:43.737+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): first_task> on 2023-10-31 00:00:00+00:00
+[2023-11-01T02:46:43.744+0000] {standard_task_runner.py:57} INFO - Started process 10515 to run task
+[2023-11-01T02:46:43.749+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ourfirst_dag', 'first_task', 'scheduled__2023-10-31T00:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp09__qmfc']
+[2023-11-01T02:46:43.753+0000] {standard_task_runner.py:85} INFO - Job 94: Subtask first_task
+[2023-11-01T02:46:43.814+0000] {task_command.py:415} INFO - Running <TaskInstance: ourfirst_dag.first_task scheduled__2023-10-31T00:00:00+00:00 [running]> on host d55fc6ddd7e6
+[2023-11-01T02:46:43.894+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rachang' AIRFLOW_CTX_DAG_ID='ourfirst_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-10-31T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-31T00:00:00+00:00'
+[2023-11-01T02:46:43.897+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-01T02:46:43.899+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/opt/***/scripts/shell/bash1.sh ']
+[2023-11-01T02:46:43.913+0000] {subprocess.py:86} INFO - Output:
+[2023-11-01T02:46:43.925+0000] {subprocess.py:93} INFO - The script is starting
+[2023-11-01T02:46:43.926+0000] {subprocess.py:93} INFO - /opt/***/vitamincscrapy
+[2023-11-01T02:46:44.773+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: vitamincscraper)
+[2023-11-01T02:46:44.773+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.8.18 (default, Sep  7 2023, 05:18:38) - [GCC 10.2.1 20210110], pyOpenSSL 23.2.0 (OpenSSL 3.1.2 1 Aug 2023), cryptography 41.0.3, Platform Linux-5.15.49-linuxkit-aarch64-with-glibc2.17
+[2023-11-01T02:46:44.774+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.addons] INFO: Enabled addons:
+[2023-11-01T02:46:44.774+0000] {subprocess.py:93} INFO - []
+[2023-11-01T02:46:44.775+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [asyncio] DEBUG: Using selector: EpollSelector
+[2023-11-01T02:46:44.775+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+[2023-11-01T02:46:44.775+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+[2023-11-01T02:46:44.784+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.extensions.telnet] INFO: Telnet Password: b2707832a6275abc
+[2023-11-01T02:46:44.913+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.middleware] INFO: Enabled extensions:
+[2023-11-01T02:46:44.914+0000] {subprocess.py:93} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2023-11-01T02:46:44.914+0000] {subprocess.py:93} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2023-11-01T02:46:44.915+0000] {subprocess.py:93} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2023-11-01T02:46:44.915+0000] {subprocess.py:93} INFO -  'scrapy.extensions.feedexport.FeedExporter',
+[2023-11-01T02:46:44.915+0000] {subprocess.py:93} INFO -  'scrapy.extensions.logstats.LogStats']
+[2023-11-01T02:46:44.916+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.crawler] INFO: Overridden settings:
+[2023-11-01T02:46:44.916+0000] {subprocess.py:93} INFO - {'BOT_NAME': 'vitamincscraper',
+[2023-11-01T02:46:44.917+0000] {subprocess.py:93} INFO -  'FEED_EXPORT_ENCODING': 'utf-8',
+[2023-11-01T02:46:44.917+0000] {subprocess.py:93} INFO -  'NEWSPIDER_MODULE': 'vitamincscraper.spiders',
+[2023-11-01T02:46:44.917+0000] {subprocess.py:93} INFO -  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+[2023-11-01T02:46:44.917+0000] {subprocess.py:93} INFO -  'ROBOTSTXT_OBEY': True,
+[2023-11-01T02:46:44.919+0000] {subprocess.py:93} INFO -  'SPIDER_MODULES': ['vitamincscraper.spiders'],
+[2023-11-01T02:46:44.919+0000] {subprocess.py:93} INFO -  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+[2023-11-01T02:46:44.963+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2023-11-01T02:46:44.964+0000] {subprocess.py:93} INFO - ['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+[2023-11-01T02:46:44.964+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2023-11-01T02:46:44.965+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2023-11-01T02:46:44.965+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2023-11-01T02:46:44.965+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2023-11-01T02:46:44.966+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2023-11-01T02:46:44.966+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2023-11-01T02:46:44.966+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2023-11-01T02:46:44.967+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2023-11-01T02:46:44.967+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2023-11-01T02:46:44.968+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2023-11-01T02:46:44.969+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2023-11-01T02:46:44.969+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2023-11-01T02:46:44.969+0000] {subprocess.py:93} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2023-11-01T02:46:44.970+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+[2023-11-01T02:46:44.970+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2023-11-01T02:46:44.970+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2023-11-01T02:46:44.971+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2023-11-01T02:46:44.971+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[2023-11-01T02:46:44.971+0000] {subprocess.py:93} INFO - []
+[2023-11-01T02:46:44.971+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.core.engine] INFO: Spider opened
+[2023-11-01T02:46:44.972+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2023-11-01T02:46:44.972+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [py.warnings] WARNING: /home/***/.local/lib/python3.8/site-packages/scrapy/spidermiddlewares/offsite.py:74: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://sg.iherb.com in allowed_domains.
+[2023-11-01T02:46:44.973+0000] {subprocess.py:93} INFO -   warnings.warn(message, URLWarning)
+[2023-11-01T02:46:44.973+0000] {subprocess.py:93} INFO - 
+[2023-11-01T02:46:44.974+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2023-11-01T02:46:44.982+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://sg.iherb.com/robots.txt> (failed 1 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:44.988+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://sg.iherb.com/robots.txt> (failed 2 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:44.992+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://sg.iherb.com/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:44.993+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://sg.iherb.com/robots.txt>: DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:44.994+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-11-01T02:46:44.994+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1693, in _inlineCallbacks
+[2023-11-01T02:46:44.994+0000] {subprocess.py:93} INFO -     result = context.run(
+[2023-11-01T02:46:44.995+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/python/failure.py", line 518, in throwExceptionIntoGenerator
+[2023-11-01T02:46:44.995+0000] {subprocess.py:93} INFO -     return g.throw(self.type, self.value, self.tb)
+[2023-11-01T02:46:44.995+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/downloader/middleware.py", line 54, in process_request
+[2023-11-01T02:46:44.996+0000] {subprocess.py:93} INFO -     return (yield download_func(request=request, spider=spider))
+[2023-11-01T02:46:44.996+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 892, in _runCallbacks
+[2023-11-01T02:46:44.997+0000] {subprocess.py:93} INFO -     current.result = callback(  # type: ignore[misc]
+[2023-11-01T02:46:44.997+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/endpoints.py", line 1022, in startConnectionAttempts
+[2023-11-01T02:46:44.997+0000] {subprocess.py:93} INFO -     raise error.DNSLookupError(
+[2023-11-01T02:46:44.998+0000] {subprocess.py:93} INFO - twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:44.998+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:44 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://sg.iherb.com/c/vitamin-c> (failed 1 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:45.000+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET https://sg.iherb.com/c/vitamin-c> (failed 2 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:45.003+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://sg.iherb.com/c/vitamin-c> (failed 3 times): DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:45.109+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.core.scraper] ERROR: Error downloading <GET https://sg.iherb.com/c/vitamin-c>
+[2023-11-01T02:46:45.109+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2023-11-01T02:46:45.110+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 1693, in _inlineCallbacks
+[2023-11-01T02:46:45.110+0000] {subprocess.py:93} INFO -     result = context.run(
+[2023-11-01T02:46:45.111+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/python/failure.py", line 518, in throwExceptionIntoGenerator
+[2023-11-01T02:46:45.112+0000] {subprocess.py:93} INFO -     return g.throw(self.type, self.value, self.tb)
+[2023-11-01T02:46:45.112+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/scrapy/core/downloader/middleware.py", line 54, in process_request
+[2023-11-01T02:46:45.112+0000] {subprocess.py:93} INFO -     return (yield download_func(request=request, spider=spider))
+[2023-11-01T02:46:45.113+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/defer.py", line 892, in _runCallbacks
+[2023-11-01T02:46:45.113+0000] {subprocess.py:93} INFO -     current.result = callback(  # type: ignore[misc]
+[2023-11-01T02:46:45.114+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/twisted/internet/endpoints.py", line 1022, in startConnectionAttempts
+[2023-11-01T02:46:45.114+0000] {subprocess.py:93} INFO -     raise error.DNSLookupError(
+[2023-11-01T02:46:45.115+0000] {subprocess.py:93} INFO - twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: sg.iherb.com.
+[2023-11-01T02:46:45.214+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.core.engine] INFO: Closing spider (finished)
+[2023-11-01T02:46:45.219+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: Output_Data/***scrapy-2023-11-01T02:46:43.931.csv
+[2023-11-01T02:46:45.220+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2023-11-01T02:46:45.221+0000] {subprocess.py:93} INFO - {'downloader/exception_count': 6,
+[2023-11-01T02:46:45.221+0000] {subprocess.py:93} INFO -  'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
+[2023-11-01T02:46:45.222+0000] {subprocess.py:93} INFO -  'downloader/request_bytes': 1341,
+[2023-11-01T02:46:45.223+0000] {subprocess.py:93} INFO -  'downloader/request_count': 6,
+[2023-11-01T02:46:45.223+0000] {subprocess.py:93} INFO -  'downloader/request_method_count/GET': 6,
+[2023-11-01T02:46:45.224+0000] {subprocess.py:93} INFO -  'elapsed_time_seconds': 0.242307,
+[2023-11-01T02:46:45.225+0000] {subprocess.py:93} INFO -  'feedexport/success_count/FileFeedStorage': 1,
+[2023-11-01T02:46:45.225+0000] {subprocess.py:93} INFO -  'finish_reason': 'finished',
+[2023-11-01T02:46:45.226+0000] {subprocess.py:93} INFO -  'finish_time': datetime.datetime(2023, 11, 1, 2, 46, 45, 214538, tzinfo=datetime.timezone.utc),
+[2023-11-01T02:46:45.227+0000] {subprocess.py:93} INFO -  'log_count/DEBUG': 7,
+[2023-11-01T02:46:45.228+0000] {subprocess.py:93} INFO -  'log_count/ERROR': 4,
+[2023-11-01T02:46:45.228+0000] {subprocess.py:93} INFO -  'log_count/INFO': 11,
+[2023-11-01T02:46:45.229+0000] {subprocess.py:93} INFO -  'log_count/WARNING': 1,
+[2023-11-01T02:46:45.230+0000] {subprocess.py:93} INFO -  'memusage/max': 72241152,
+[2023-11-01T02:46:45.230+0000] {subprocess.py:93} INFO -  'memusage/startup': 72241152,
+[2023-11-01T02:46:45.231+0000] {subprocess.py:93} INFO -  'retry/count': 4,
+[2023-11-01T02:46:45.231+0000] {subprocess.py:93} INFO -  'retry/max_reached': 2,
+[2023-11-01T02:46:45.232+0000] {subprocess.py:93} INFO -  'retry/reason_count/twisted.internet.error.DNSLookupError': 4,
+[2023-11-01T02:46:45.233+0000] {subprocess.py:93} INFO -  "robotstxt/exception_count/<class 'twisted.internet.error.DNSLookupError'>": 1,
+[2023-11-01T02:46:45.233+0000] {subprocess.py:93} INFO -  'robotstxt/request_count': 1,
+[2023-11-01T02:46:45.234+0000] {subprocess.py:93} INFO -  'scheduler/dequeued': 3,
+[2023-11-01T02:46:45.234+0000] {subprocess.py:93} INFO -  'scheduler/dequeued/memory': 3,
+[2023-11-01T02:46:45.235+0000] {subprocess.py:93} INFO -  'scheduler/enqueued': 3,
+[2023-11-01T02:46:45.235+0000] {subprocess.py:93} INFO -  'scheduler/enqueued/memory': 3,
+[2023-11-01T02:46:45.236+0000] {subprocess.py:93} INFO -  'start_time': datetime.datetime(2023, 11, 1, 2, 46, 44, 972231, tzinfo=datetime.timezone.utc)}
+[2023-11-01T02:46:45.236+0000] {subprocess.py:93} INFO - 2023-11-01 02:46:45 [scrapy.core.engine] INFO: Spider closed (finished)
+[2023-11-01T02:46:45.292+0000] {subprocess.py:93} INFO - Script executed
+[2023-11-01T02:46:45.293+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-01T02:46:45.311+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=ourfirst_dag, task_id=first_task, execution_date=20231031T000000, start_date=20231101T024643, end_date=20231101T024645
+[2023-11-01T02:46:45.350+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-01T02:46:45.360+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

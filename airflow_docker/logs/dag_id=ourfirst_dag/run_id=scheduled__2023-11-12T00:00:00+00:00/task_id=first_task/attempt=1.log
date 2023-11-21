@@ -1,0 +1,104 @@
+[2023-11-13T01:06:46.810+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ourfirst_dag.first_task scheduled__2023-11-12T00:00:00+00:00 [queued]>
+[2023-11-13T01:06:46.817+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ourfirst_dag.first_task scheduled__2023-11-12T00:00:00+00:00 [queued]>
+[2023-11-13T01:06:46.817+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 6
+[2023-11-13T01:06:46.827+0000] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): first_task> on 2023-11-12 00:00:00+00:00
+[2023-11-13T01:06:46.833+0000] {standard_task_runner.py:57} INFO - Started process 81999 to run task
+[2023-11-13T01:06:46.841+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ourfirst_dag', 'first_task', 'scheduled__2023-11-12T00:00:00+00:00', '--job-id', '118', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpokgql1su']
+[2023-11-13T01:06:46.844+0000] {standard_task_runner.py:85} INFO - Job 118: Subtask first_task
+[2023-11-13T01:06:46.902+0000] {task_command.py:415} INFO - Running <TaskInstance: ourfirst_dag.first_task scheduled__2023-11-12T00:00:00+00:00 [running]> on host d55fc6ddd7e6
+[2023-11-13T01:06:46.979+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rachang' AIRFLOW_CTX_DAG_ID='ourfirst_dag' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2023-11-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-12T00:00:00+00:00'
+[2023-11-13T01:06:46.981+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-13T01:06:46.982+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/opt/***/scripts/shell/bash1.sh ']
+[2023-11-13T01:06:46.993+0000] {subprocess.py:86} INFO - Output:
+[2023-11-13T01:06:46.998+0000] {subprocess.py:93} INFO - The script is starting
+[2023-11-13T01:06:46.999+0000] {subprocess.py:93} INFO - /opt/***/vitamincscrapy
+[2023-11-13T01:06:47.847+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: vitamincscraper)
+[2023-11-13T01:06:47.848+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.8.18 (default, Sep  7 2023, 05:18:38) - [GCC 10.2.1 20210110], pyOpenSSL 23.2.0 (OpenSSL 3.1.2 1 Aug 2023), cryptography 41.0.3, Platform Linux-5.15.49-linuxkit-aarch64-with-glibc2.17
+[2023-11-13T01:06:47.850+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.addons] INFO: Enabled addons:
+[2023-11-13T01:06:47.850+0000] {subprocess.py:93} INFO - []
+[2023-11-13T01:06:47.851+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [asyncio] DEBUG: Using selector: EpollSelector
+[2023-11-13T01:06:47.851+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+[2023-11-13T01:06:47.852+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.unix_events._UnixSelectorEventLoop
+[2023-11-13T01:06:47.858+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:47 [scrapy.extensions.telnet] INFO: Telnet Password: cbc8fa936e28fc72
+[2023-11-13T01:06:48.006+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.middleware] INFO: Enabled extensions:
+[2023-11-13T01:06:48.006+0000] {subprocess.py:93} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2023-11-13T01:06:48.007+0000] {subprocess.py:93} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2023-11-13T01:06:48.007+0000] {subprocess.py:93} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2023-11-13T01:06:48.008+0000] {subprocess.py:93} INFO -  'scrapy.extensions.feedexport.FeedExporter',
+[2023-11-13T01:06:48.008+0000] {subprocess.py:93} INFO -  'scrapy.extensions.logstats.LogStats']
+[2023-11-13T01:06:48.009+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.crawler] INFO: Overridden settings:
+[2023-11-13T01:06:48.010+0000] {subprocess.py:93} INFO - {'BOT_NAME': 'vitamincscraper',
+[2023-11-13T01:06:48.010+0000] {subprocess.py:93} INFO -  'FEED_EXPORT_ENCODING': 'utf-8',
+[2023-11-13T01:06:48.011+0000] {subprocess.py:93} INFO -  'NEWSPIDER_MODULE': 'vitamincscraper.spiders',
+[2023-11-13T01:06:48.011+0000] {subprocess.py:93} INFO -  'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+[2023-11-13T01:06:48.012+0000] {subprocess.py:93} INFO -  'ROBOTSTXT_OBEY': True,
+[2023-11-13T01:06:48.012+0000] {subprocess.py:93} INFO -  'SPIDER_MODULES': ['vitamincscraper.spiders'],
+[2023-11-13T01:06:48.012+0000] {subprocess.py:93} INFO -  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+[2023-11-13T01:06:48.056+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2023-11-13T01:06:48.057+0000] {subprocess.py:93} INFO - ['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+[2023-11-13T01:06:48.058+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2023-11-13T01:06:48.058+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2023-11-13T01:06:48.059+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2023-11-13T01:06:48.059+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2023-11-13T01:06:48.059+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2023-11-13T01:06:48.060+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2023-11-13T01:06:48.060+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2023-11-13T01:06:48.061+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2023-11-13T01:06:48.061+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2023-11-13T01:06:48.062+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2023-11-13T01:06:48.062+0000] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2023-11-13T01:06:48.063+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2023-11-13T01:06:48.063+0000] {subprocess.py:93} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2023-11-13T01:06:48.064+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+[2023-11-13T01:06:48.064+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2023-11-13T01:06:48.064+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2023-11-13T01:06:48.065+0000] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2023-11-13T01:06:48.065+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.middleware] INFO: Enabled item pipelines:
+[2023-11-13T01:06:48.066+0000] {subprocess.py:93} INFO - []
+[2023-11-13T01:06:48.066+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.core.engine] INFO: Spider opened
+[2023-11-13T01:06:48.067+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2023-11-13T01:06:48.067+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [py.warnings] WARNING: /home/***/.local/lib/python3.8/site-packages/scrapy/spidermiddlewares/offsite.py:74: URLWarning: allowed_domains accepts only domains, not URLs. Ignoring URL entry https://sg.iherb.com in allowed_domains.
+[2023-11-13T01:06:48.068+0000] {subprocess.py:93} INFO -   warnings.warn(message, URLWarning)
+[2023-11-13T01:06:48.068+0000] {subprocess.py:93} INFO - 
+[2023-11-13T01:06:48.068+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2023-11-13T01:06:48.629+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://sg.iherb.com/robots.txt> (referer: None)
+[2023-11-13T01:06:48.682+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://sg.iherb.com/c/vitamin-c> (referer: None)
+[2023-11-13T01:06:48.784+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://sg.iherb.com/c/vitamin-c>: HTTP status code is not handled or not allowed
+[2023-11-13T01:06:48.786+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.core.engine] INFO: Closing spider (finished)
+[2023-11-13T01:06:48.789+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: Output_Data/***scrapy-2023-11-13T01:06:47.001.csv
+[2023-11-13T01:06:48.790+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2023-11-13T01:06:48.790+0000] {subprocess.py:93} INFO - {'downloader/request_bytes': 630,
+[2023-11-13T01:06:48.791+0000] {subprocess.py:93} INFO -  'downloader/request_count': 2,
+[2023-11-13T01:06:48.791+0000] {subprocess.py:93} INFO -  'downloader/request_method_count/GET': 2,
+[2023-11-13T01:06:48.791+0000] {subprocess.py:93} INFO -  'downloader/response_bytes': 5978,
+[2023-11-13T01:06:48.792+0000] {subprocess.py:93} INFO -  'downloader/response_count': 2,
+[2023-11-13T01:06:48.792+0000] {subprocess.py:93} INFO -  'downloader/response_status_count/200': 1,
+[2023-11-13T01:06:48.793+0000] {subprocess.py:93} INFO -  'downloader/response_status_count/403': 1,
+[2023-11-13T01:06:48.793+0000] {subprocess.py:93} INFO -  'elapsed_time_seconds': 0.72353,
+[2023-11-13T01:06:48.793+0000] {subprocess.py:93} INFO -  'feedexport/success_count/FileFeedStorage': 1,
+[2023-11-13T01:06:48.794+0000] {subprocess.py:93} INFO -  'finish_reason': 'finished',
+[2023-11-13T01:06:48.794+0000] {subprocess.py:93} INFO -  'finish_time': datetime.datetime(2023, 11, 13, 1, 6, 48, 786567, tzinfo=datetime.timezone.utc),
+[2023-11-13T01:06:48.795+0000] {subprocess.py:93} INFO -  'httpcompression/response_bytes': 6862,
+[2023-11-13T01:06:48.795+0000] {subprocess.py:93} INFO -  'httpcompression/response_count': 2,
+[2023-11-13T01:06:48.795+0000] {subprocess.py:93} INFO -  'httperror/response_ignored_count': 1,
+[2023-11-13T01:06:48.796+0000] {subprocess.py:93} INFO -  'httperror/response_ignored_status_count/403': 1,
+[2023-11-13T01:06:48.796+0000] {subprocess.py:93} INFO -  'log_count/DEBUG': 5,
+[2023-11-13T01:06:48.797+0000] {subprocess.py:93} INFO -  'log_count/INFO': 12,
+[2023-11-13T01:06:48.797+0000] {subprocess.py:93} INFO -  'log_count/WARNING': 1,
+[2023-11-13T01:06:48.797+0000] {subprocess.py:93} INFO -  'memusage/max': 71921664,
+[2023-11-13T01:06:48.798+0000] {subprocess.py:93} INFO -  'memusage/startup': 71921664,
+[2023-11-13T01:06:48.798+0000] {subprocess.py:93} INFO -  'response_received_count': 2,
+[2023-11-13T01:06:48.799+0000] {subprocess.py:93} INFO -  'robotstxt/request_count': 1,
+[2023-11-13T01:06:48.799+0000] {subprocess.py:93} INFO -  'robotstxt/response_count': 1,
+[2023-11-13T01:06:48.799+0000] {subprocess.py:93} INFO -  'robotstxt/response_status_count/200': 1,
+[2023-11-13T01:06:48.800+0000] {subprocess.py:93} INFO -  'scheduler/dequeued': 1,
+[2023-11-13T01:06:48.800+0000] {subprocess.py:93} INFO -  'scheduler/dequeued/memory': 1,
+[2023-11-13T01:06:48.800+0000] {subprocess.py:93} INFO -  'scheduler/enqueued': 1,
+[2023-11-13T01:06:48.801+0000] {subprocess.py:93} INFO -  'scheduler/enqueued/memory': 1,
+[2023-11-13T01:06:48.801+0000] {subprocess.py:93} INFO -  'start_time': datetime.datetime(2023, 11, 13, 1, 6, 48, 63037, tzinfo=datetime.timezone.utc)}
+[2023-11-13T01:06:48.802+0000] {subprocess.py:93} INFO - 2023-11-13 01:06:48 [scrapy.core.engine] INFO: Spider closed (finished)
+[2023-11-13T01:06:48.888+0000] {subprocess.py:93} INFO - Script executed
+[2023-11-13T01:06:48.889+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-13T01:06:48.916+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=ourfirst_dag, task_id=first_task, execution_date=20231112T000000, start_date=20231113T010646, end_date=20231113T010648
+[2023-11-13T01:06:48.967+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-13T01:06:48.984+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check
